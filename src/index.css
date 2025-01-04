@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="radio"] + label span {
+  transition: background 0.2s, transform 0.2s;
+}
+
+input[type="radio"] + label span:hover,
+input[type="radio"] + label:hover span {
+  transform: scale(1.2);
+}
+
+input[type="radio"]:checked + label span {
+  border-color: rgb(30 64 175, #1e40af);
+  background-color: #1e40af;
+  box-shadow: 0px 0px 0px 2px white inset;
+}
