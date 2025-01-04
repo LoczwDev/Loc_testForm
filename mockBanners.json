@@ -14,5 +14,21 @@
     },
     "order": 1,
     "status": "active"
+  },
+  {
+    "id": 1,
+    "group": "Group 2",
+    "name": "Product 2",
+    "link": "http://TTA.co2.kr",
+    "text1": "ICT is a testing mechanism designed to",
+    "text2": "evaluate and verify individual components",
+    "text3": "on a printed circuit board assembly (PCBA)",
+    "date": "2024-10-16",
+    "image": {
+      "url": "https://ecome.vn/wp-content/uploads/2023/10/ict-la-gi.jpg",
+      "file_name": "Product_2"
+    },
+    "order": 2,
+    "status": "inactive"
   }
 ]
