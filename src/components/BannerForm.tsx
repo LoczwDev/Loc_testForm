@@ -111,8 +111,8 @@ const BannerForm: React.FC<BannerFormProps> = ({
     if (validateForm()) {
       onSubmit(formData);
       setOpenForm(false);
+      toast.success("Success"); 
     }
-    toast.success("Success");
   };
 
   return (
