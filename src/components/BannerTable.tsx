@@ -145,7 +145,7 @@ const BannerTable: React.FC = () => {
                         {banner.link}
                       </a>
                     </td>
-                    <td className="border-[2px] border-black px-4 py-1.5 w-[340px] text-center line-clamp-3">
+                    <td className="border-[2px] border-black px-4 py-1.5 w-[340px] text-center">
                       {banner.text1}
                       {banner.text2}
                       {banner.text3}
